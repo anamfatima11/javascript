@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./switchcal.js"></script>
+</head>
+<body>
+    <div>
+        <input placeholder="operand 1" type="text" id="operand1">
+        <input placeholder="operand 2" type="text" id="operand2">
+    </div>
+    <input placeholder="result" type="text" id="result">
+    <div>
+        <button onclick="performOperation('addition')">addition</button>
+        <button onclick="performOperation('subtraction')">subtraction</button>
+        <button onclick="performOperation('multiplication')">multiplication</button>
+    </div>
+    <div>
+        <button onclick="performOsperation('division')">division</button>
+        <button onclick="reset()">Reset</button>
+    </div>
+</body>
+</html>
